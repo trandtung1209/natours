@@ -35,7 +35,7 @@ if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
 
-//test
+// cai nay thu git thoi
 //limit req from same API
 const limiter = rateLimit({
   max: 100,
