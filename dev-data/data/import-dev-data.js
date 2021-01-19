@@ -19,7 +19,7 @@ mongoose
     useFindAndModify: false,
     useUnifiedTopology: true,
   })
-  .then(() => console.log('DB connection successful !'));
+  .then(() => console.log('DB connection successful ! ✅'));
 
 //read json
 const tours = JSON.parse(fs.readFileSync(`${__dirname}/tours.json`, 'utf-8'));
